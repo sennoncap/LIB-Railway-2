@@ -184,7 +184,7 @@
     ],
     "client_id": "275479947004-crjrloj8r715hfv0ebqo464jvjrtbt43.apps.googleusercontent.com",
     "client_secret": "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",
-    "cloudflare": "https://nmovies4.noncapture5400.workers.dev",
+    "cloudflare": "https://n-movies2.psiphon15-non.workers.dev/",
     "fetch_assets": "true",
     "refresh_token": "1//0g3l-Nj8dfI8nCgYIARAAGBASNwF-L9Ir-1Js3nkIaKo82NLSLWjyV7xLJ_uz6Bej6to4b1W4KW_fOwdLHE0cvG2v_UhsF4F-8F0",
     "remove_duplicates": "false",
