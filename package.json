@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.py",
   "scripts": {
-    "start": "python3 main.py"
+    "start": "npm run start"
   },
   "repository": {
     "type": "git",
