@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.py",
   "scripts": {
-    "start": "npm run start"
+    "start": "gunicorn main:app --timeout 1024"
   },
   "repository": {
     "type": "git",
