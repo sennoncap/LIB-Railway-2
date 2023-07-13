@@ -1,22 +1,48 @@
 {
-  "name": "n-movies",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.py",
+  "name": "libdrive-config",
+  "version": "1.2.1",
+  "description": "libDrive is a Google Drive media library manager and indexer, similar to Plex, that organizes Google Drive media to offer an intuitive and user-friendly experience.",
   "scripts": {
-    "start": "gunicorn main:app --timeout 1024"
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.21.2",
+    "bootswatch": "^4.6.0",
+    "core-js": "^3.11.2",
+    "csprng": "^0.1.2",
+    "jszip": "^3.6.0",
+    "vue": "^2.6.12",
+    "vue-clipboard2": "^0.3.1"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@vue/cli-service": "^4.5.9",
+    "bootstrap": "^4.5.3",
+    "http-server": "^0.12.3",
+    "mutationobserver-shim": "^0.3.7",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "vue-cli-plugin-bootstrap-vue": "^0.7.0",
+    "vue-template-compiler": "^2.6.12"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+    "url": "git+https://github.com/libDrive/config.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Elias Benbourenane <eliasbenbourenane@gmail.com> (https://elias.eu.org)",
+  "funding": [
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/eliasbenb"
+    }
+  ],
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+    "url": "https://github.com/libDrive/libDrive/issues"
   },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
